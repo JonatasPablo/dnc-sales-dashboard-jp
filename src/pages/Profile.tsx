@@ -1,9 +1,9 @@
-function Perfil() {
+function Profile() {
     return (
         <>
-            <h1>Perfil</h1>
+            <h1>Profile</h1>
         </>
     )
 }
 
-export default Perfil
+export default Profile
