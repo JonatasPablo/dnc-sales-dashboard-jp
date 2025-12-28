@@ -31,7 +31,7 @@ export const lightTheme: Theme = {
         disabled: '#EEE',
         disabledBorderColor: '#E0E0E0',
         disabledColor: '#666',
-        placehoderColor: '#666',
+        placeholderColor: '#666',
     },
     typographies: {
         error: '#FF0202',
@@ -71,7 +71,7 @@ export const darkTheme: Theme = {
         disabled: '#282D49',
         disabledBorderColor: '#2E3F55',
         disabledColor: '#58677C',
-        placehoderColor: '#89A7CE',
+        placeholderColor: '#89A7CE',
     },
     typographies: {
         error: '#FF0202',
