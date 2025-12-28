@@ -29,7 +29,7 @@ export interface Theme {
         disabled: string
         disabledBorderColor: string
         disabledColor: string
-        placehoderColor: string
+        placeholderColor: string
     }
     typographies: {
         error: string
