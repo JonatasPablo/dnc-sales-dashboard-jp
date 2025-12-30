@@ -1,6 +1,7 @@
 import { Box, Container, Grid } from '@mui/material'
 import { BannerImage, FormComponent, StyledH1, StyledP, Logo } from '@/components'
 import { pxToRem } from '@/utils'
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
@@ -18,7 +19,11 @@ function Login() {
             }}
           >
             <Container maxWidth="sm">
-              <Box sx={{ marginBottom: pxToRem(24) }}><Logo height={41} width={100} /></Box>
+              <Box sx={{ marginBottom: pxToRem(24) }}>
+                <Link to="/home" style={{ display: 'inline-block' }}>
+                  <Logo height={41} width={100} />
+                </Link>
+              </Box>
               <Box sx={{ marginBottom: pxToRem(24) }}>
                 <StyledH1>Bem-vindo</StyledH1>
                 <StyledP>Digite seu email e senha para logar</StyledP>
