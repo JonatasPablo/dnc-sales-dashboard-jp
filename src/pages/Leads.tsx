@@ -4,7 +4,7 @@ function Leads() {
   return (
     <>
       <Header />
-      <h1>Leads</h1>
+        <h1>Leads</h1>
     </>
   )
 }
